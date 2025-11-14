@@ -1,7 +1,7 @@
 //If inside
 
-hspeed += keyboard_check(vk_right) - keyboard_check(vk_left)
-vspeed += keyboard_check(vk_down) - keyboard_check(vk_up)
+hspeed += keyboard_check(ord("D")) - keyboard_check(ord("A"))
+vspeed += keyboard_check(ord("S")) - keyboard_check(ord("W"))
 speed *= 0.8;
 
 if place_meeting(x, y, obj_wall){
@@ -26,3 +26,5 @@ if place_meeting(x+hspeed, y+vspeed, obj_wall){
         vspeed*=0.9;
     }
 }
+
+flashlight_direction -= (keyboard_check(ord("E")) - keyboard_check(ord("Q"))) * 0.1
