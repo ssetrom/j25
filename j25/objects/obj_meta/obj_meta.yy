@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Object1",
-  "eventList":[],
+  "%Name":"obj_meta",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object1",
+  "name":"obj_meta",
   "overriddenProperties":[],
   "parent":{
     "name":"j25",
