@@ -12,13 +12,33 @@ function Quad(_vb,_x1,_y1,_x2,_y2){
 	vertex_position_3d(_vb,_x2,_y2,1); //repositioned vertex
 }
 
+function RectShadowQuads(_vb, _x, _y, _w, _h){
+    var x1 = _x;
+    var y1 = _y;
+    var x2 = _x + _w;
+    var y2 = _y + _h;
+
+    // Topp
+    Quad(_vb, x1, y1, x2, y1);
+    // Høyre
+    Quad(_vb, x2, y1, x2, y2);
+    // Bunn
+    Quad(_vb, x2, y2, x1, y2);
+    // Venstre
+    Quad(_vb, x1, y2, x1, y1);
+}
+
 //Construct the vertex buffer with every wall
 //Instead of using the four edges as the walls, we use the diagonals instead (Optimization)
 vertex_begin(vb,vf);
 var _vb = vb;
+
 with(obj_wall){
-	Quad(_vb,x,y,x+sprite_width,y+sprite_height); //Negative Slope Diagonal Wall
-	Quad(_vb,x+sprite_width,y,x,y+sprite_height); //Positive Slope Diagonal Wall
+    var w = sprite_width  * image_xscale;
+    var h = sprite_height * image_yscale;
+
+    RectShadowQuads(_vb, x, y, w, h);
 }
+
 vertex_end(vb);
 
