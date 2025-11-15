@@ -25,7 +25,9 @@
   "name":"j25",
   "resources":[
     {"id":{"name":"hotel_counter_front","path":"objects/hotel_counter_front/hotel_counter_front.yy",},},
-    {"id":{"name":"hotel_door","path":"objects/hotel_door/hotel_door.yy",},},
+    {"id":{"name":"hotel_door_bad","path":"objects/hotel_door_bad/hotel_door_bad.yy",},},
+    {"id":{"name":"hotel_door_good","path":"objects/hotel_door_good/hotel_door_good.yy",},},
+    {"id":{"name":"hotel_floor_item","path":"objects/hotel_floor_item/hotel_floor_item.yy",},},
     {"id":{"name":"hotel_wall_1","path":"objects/hotel_wall_1/hotel_wall_1.yy",},},
     {"id":{"name":"hotel_wall_2","path":"objects/hotel_wall_2/hotel_wall_2.yy",},},
     {"id":{"name":"hotel_wall_3","path":"objects/hotel_wall_3/hotel_wall_3.yy",},},
@@ -53,6 +55,7 @@
     {"id":{"name":"spr_editor_wall_item","path":"sprites/spr_editor_wall_item/spr_editor_wall_item.yy",},},
     {"id":{"name":"spr_floorItem","path":"sprites/spr_floorItem/spr_floorItem.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
+    {"id":{"name":"spr_icons","path":"sprites/spr_icons/spr_icons.yy",},},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},},
     {"id":{"name":"spr_keyfake1","path":"sprites/spr_keyfake1/spr_keyfake1.yy",},},
     {"id":{"name":"spr_keyfake2","path":"sprites/spr_keyfake2/spr_keyfake2.yy",},},

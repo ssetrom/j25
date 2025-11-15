@@ -1,0 +1,4 @@
+draw_sprite_ext(sprite_index, image_index, x, y+(sin(t)*wobble*5)-5*wobble,1,1,0,c_white,1)
+
+draw_point(x-10 ,y+10)
+draw_point(x+10 ,y+10)

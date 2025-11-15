@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_collision",
+  "%Name":"hotel_door_good",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_collision",
+  "name":"hotel_door_good",
   "overriddenProperties":[],
   "parent":{
     "name":"hotel",
     "path":"folders/hotel.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"hotel_door_bad",
+    "path":"objects/hotel_door_bad/hotel_door_bad.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,9 +33,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_collider",
-    "path":"sprites/spr_collider/spr_collider.yy",
+    "name":"spr_door",
+    "path":"sprites/spr_door/spr_door.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
