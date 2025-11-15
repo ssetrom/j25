@@ -19,8 +19,7 @@ draw_clear_depth(1);
 
 gpu_set_ztestenable(1);
 gpu_set_zwriteenable(1);
-var old_cull = gpu_get_cullmode();
-gpu_set_cullmode(cull_noculling);
+
 
 var cam = view_camera[0];
 var cx  = camera_get_view_x(cam);
@@ -59,7 +58,7 @@ with(obj_player){
 	_z--; //Next set of shadows and lights is set closer to the screen
 }
 shader_reset();
-gpu_set_cullmode(old_cull);
+
 gpu_set_ztestenable(0);
 gpu_set_zwriteenable(0);
 surface_reset_target()

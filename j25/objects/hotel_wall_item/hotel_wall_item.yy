@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player",
+  "%Name":"hotel_wall_item",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player",
+  "name":"hotel_wall_item",
   "overriddenProperties":[],
   "parent":{
-    "name":"j25",
-    "path":"j25.yyp",
+    "name":"hotel",
+    "path":"folders/hotel.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,9 +31,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player",
-    "path":"sprites/spr_player/spr_player.yy",
+    "name":"spr_editor_wall_item",
+    "path":"sprites/spr_editor_wall_item/spr_editor_wall_item.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_editor_wall_item",
+    "path":"sprites/spr_editor_wall_item/spr_editor_wall_item.yy",
+  },
   "visible":true,
 }

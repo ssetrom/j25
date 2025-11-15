@@ -24,6 +24,7 @@
   },
   "name":"j25",
   "resources":[
+    {"id":{"name":"hotel_wall_item","path":"objects/hotel_wall_item/hotel_wall_item.yy",},},
     {"id":{"name":"hotel_wall","path":"objects/hotel_wall/hotel_wall.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},},
@@ -39,6 +40,7 @@
     {"id":{"name":"spr_clock_fake2","path":"sprites/spr_clock_fake2/spr_clock_fake2.yy",},},
     {"id":{"name":"spr_clock_normal","path":"sprites/spr_clock_normal/spr_clock_normal.yy",},},
     {"id":{"name":"spr_collider","path":"sprites/spr_collider/spr_collider.yy",},},
+    {"id":{"name":"spr_editor_wall_item","path":"sprites/spr_editor_wall_item/spr_editor_wall_item.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_occluder","path":"sprites/spr_occluder/spr_occluder.yy",},},
     {"id":{"name":"spr_painting_fake1","path":"sprites/spr_painting_fake1/spr_painting_fake1.yy",},},
