@@ -21,7 +21,7 @@ var cam = view_camera[0];
 var cx  = camera_get_view_x(cam);
 var cy  = camera_get_view_y(cam);
 
-with(obj_wall){
+with(obj_occluder){
     var x1 = bbox_left - cx;
     var y1 = bbox_top - cy;
     var x2 = bbox_right - cx;

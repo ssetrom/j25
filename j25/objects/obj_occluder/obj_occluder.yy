@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_test_wall",
-  "eventList":[],
+  "%Name":"obj_occluder",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_test_wall",
+  "name":"obj_occluder",
   "overriddenProperties":[],
   "parent":{
-    "name":"j25",
-    "path":"j25.yyp",
+    "name":"hotel",
+    "path":"folders/hotel.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_occluder",
+    "path":"sprites/spr_occluder/spr_occluder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
