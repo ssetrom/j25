@@ -17,11 +17,15 @@ function Quad(_vb,_x1,_y1,_x2,_y2){
 vertex_begin(vb,vf);
 var _vb = vb;
 
+var cam = view_camera[0];
+var cx  = camera_get_view_x(cam);
+var cy  = camera_get_view_y(cam);
+
 with(obj_wall){
-    var x1 = bbox_left;
-    var y1 = bbox_top;
-    var x2 = bbox_right;
-    var y2 = bbox_bottom;
+    var x1 = bbox_left - cx;
+    var y1 = bbox_top - cy;
+    var x2 = bbox_right - cx;
+    var y2 = bbox_bottom - cy;
 
     // topp
     Quad(_vb, x1, y1, x2, y1);
