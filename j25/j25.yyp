@@ -53,6 +53,7 @@
     {"id":{"name":"spr_room","path":"sprites/spr_room/spr_room.yy",},},
     {"id":{"name":"spr_safe","path":"sprites/spr_safe/spr_safe.yy",},},
     {"id":{"name":"spr_test","path":"sprites/spr_test/spr_test.yy",},},
+    {"id":{"name":"spr_wall_item","path":"sprites/spr_wall_item/spr_wall_item.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
   ],
   "resourceType":"GMProject",

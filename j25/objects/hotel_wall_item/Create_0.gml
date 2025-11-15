@@ -1,4 +1,6 @@
-//sprite_index = choose(spr_clock_normal, spr_painting_normal)
+sprite_index = spr_wall_item
+image_index = irandom(1)
+image_speed = 0
 target_xscale = 1
 target_yscale = 1
 
