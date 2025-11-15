@@ -19,29 +19,26 @@ if player_collision target_wobble = 1 else target_wobble = 0
 wobble += (target_wobble-wobble)*0.1
 if (wobble<0.01) t=1.5
 
-if (!good_door){
-	if player_collision && keyboard_check_pressed(vk_space) {
-		array_of_items = array_from_two_types(hotel_floor_item, hotel_wall_item)
-		
-		for (var j=0; j<obj_room_gen.num_requirements; j++){
-			for (var inst = 0; inst < array_length(array_of_items); inst++){
-				this_item = array_of_items[inst]
-				if (!this_item.im_real){
-					continue;
-				}
-			}
-			
-			if (obj_room_gen.requirements[ j ].hotel_wall_item_index == this_item.hotel_wall_item_index && requirements[ j ].image_blend == this_item.image_blend ){
-				should_skip = true
-			}
+
+if (player_collision && keyboard_check_pressed(vk_space)) {
+	
+	if (!good_door){
+		if  !obj_room_gen.room_is_cursed{
+			show_message("YOU LOOOOOS");
+		}else{
+			show_message("U WIEN");
 		}
-		
-		var isValid = false
-		for (var i = 0; i<obj_room_gen.num_requirements; i++) {
-			draw_sprite_ext(spr_icons, v.requirements[i].icon_index, 50 +cx , 50*(i+1) + cy, 1,1,0, requirements[i].image_blend, 1)
-		}
-		
 	}
+	if (good_door){
+		if obj_room_gen.room_is_cursed{
+			show_message("YOU LOOOOOS");
+		}else{
+			show_message("U WIEN");
+		}
+	}
+	game_end()
+		
 }
+
 
 t+=0.05

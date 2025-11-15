@@ -24,9 +24,10 @@ if !generated{
 		game_end()
 	}
 	
+	room_is_cursed = choose(0,1)
 	var num_items_to_gen = 4 + irandom(3)
 	var num_generated = 0
-	var set_cursed_flag = choose(0,1)
+	var set_cursed_flag = room_is_cursed
 	var num_generated_required = 0
 	
 	for (var i = 0; i<array_length(array_of_items); i++){
