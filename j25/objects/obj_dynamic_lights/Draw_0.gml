@@ -8,6 +8,9 @@ var _vb = vb;
 //Turn on the Zbuffer (3D)
 gpu_set_ztestenable(1);
 gpu_set_zwriteenable(1);
+var old_cull = gpu_get_cullmode();
+gpu_set_cullmode(cull_noculling);
+
 var _z = 0;
 with(obj_player){
 	
@@ -44,5 +47,6 @@ with(obj_player){
 	_z--; //Next set of shadows and lights is set closer to the screen
 }
 shader_reset();
+gpu_set_cullmode(old_cull);
 gpu_set_ztestenable(0);
 gpu_set_zwriteenable(0);
