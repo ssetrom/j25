@@ -5,7 +5,7 @@ var _u_z = u_z;
 var _u_z2 = u_z2;
 var _vb = vb;
 var _u_mult = u_mult;
-
+var _u_redness = u_redness;
 
 if !surface_exists(shadow_surface){
 	shadow_surface = surface_create(640,360)
@@ -38,19 +38,21 @@ with(obj_player){
 	shader_set(shd_light);
 	shader_set_uniform_f(_u_pos,x - cx,y - cy - 20);
 	shader_set_uniform_f(_u_mult, 0.5);
+	shader_set_uniform_f(_u_redness, 0);
 	
 	var tx0 = x
 	var ty0 = y - 20
 	
-	var tx1 = x + cos((pi/3) + flashlight_direction)*500
-	var ty1 = y - sin((pi/3) + flashlight_direction)*500 - 20
+	var tx1 = x + cos((pi/3) + flashlight_direction) * 700
+	var ty1 = y - sin((pi/3) + flashlight_direction) * 700 - 20
 	
-	var tx2 = x + cos((-pi/3) + flashlight_direction)*500
-	var ty2 = y - sin((-pi/3) + flashlight_direction)*500 - 20
+	var tx2 = x + cos((-pi/3) + flashlight_direction) * 700
+	var ty2 = y - sin((-pi/3) + flashlight_direction) * 700 - 20
 
 	draw_triangle(tx0 - cx, ty0 - cy, tx1 - cx, ty1 - cy, tx2 - cx, ty2 - cy, 0);
 	
 	shader_set_uniform_f(_u_mult, 2);
+	
 	draw_circle(tx0 - cx, ty0 - cy, 200, 0)
 
 	gpu_set_blendmode(bm_normal);

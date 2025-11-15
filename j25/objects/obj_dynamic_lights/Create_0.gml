@@ -9,13 +9,13 @@ u_pos2 = shader_get_uniform(shd_shadow,"u_pos");
 u_z = shader_get_uniform(shd_light,"u_z");
 u_z2 = shader_get_uniform(shd_shadow,"u_z");
 u_mult = shader_get_uniform(shd_light,"mult");
+u_redness = shader_get_uniform(shd_light,"redness");
 
 //Vertex format and buffer setup
 vertex_format_begin();
 vertex_format_add_position_3d();
 vf = vertex_format_end();
 vb = vertex_create_buffer();
-
 
 //turn on Debug
 show_debug_overlay(1);

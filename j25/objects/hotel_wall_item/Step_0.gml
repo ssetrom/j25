@@ -15,4 +15,7 @@ image_yscale += (target_yscale-image_yscale) * 0.2
 
 rot_mult += (target_rot_mult-rot_mult) * 0.2
 image_angle = sin(t)*rot_mult
+
 t+=0.05
+
+image_index = hotel_wall_item_index
