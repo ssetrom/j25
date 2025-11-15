@@ -10,3 +10,5 @@ t = 0
 hotel_wall_item_index = -1
 
 im_real = false
+maybe_cursed = false
+cursed = false
