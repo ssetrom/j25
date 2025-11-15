@@ -36,12 +36,7 @@ with(obj_player){
 	var ty2 = y - sin((-pi/3) + flashlight_direction)*500
 
 	draw_triangle(tx0, ty0, tx1, ty1, tx2, ty2, 0);
-	/*draw_rectangle(
-	camera_get_view_x(view_camera[0]),
-	camera_get_view_y(view_camera[0]),
-	camera_get_view_x(view_camera[0]) + 640,
-	camera_get_view_y(view_camera[0]) + 360,
-	0); //canvas for drawing the light*/
+
 	gpu_set_blendmode(bm_normal);
 	
 	_z--; //Next set of shadows and lights is set closer to the screen
