@@ -34,4 +34,3 @@ with(obj_wall){
 }
 
 vertex_end(vb);
-
