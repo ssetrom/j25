@@ -9,8 +9,8 @@
   "name":"hotel_wall_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"hotel",
-    "path":"folders/hotel.yy",
+    "name":"j25",
+    "path":"j25.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
