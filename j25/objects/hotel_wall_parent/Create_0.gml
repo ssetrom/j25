@@ -1,4 +1,4 @@
-shouldPrint = true
+shouldPrint = room=Room_CodeGen
 
 if tag=="hotel_wall_1"{
 	n = instance_create_depth( x+0,y+-35,0,obj_collision);
@@ -41,4 +41,8 @@ if tag=="hotel_wall_4"{
 	n.image_xscale=4; n.image_yscale=30
 	n = instance_create_depth( x+-4,y+-50,0,obj_occluder);
 	n.image_xscale=123; n.image_yscale=5
+}
+if tag=="counter_front"{
+	n = instance_create_depth( x+-20,y+-27,0,obj_collision);
+	n.image_xscale=39; n.image_yscale=29
 }

@@ -24,6 +24,7 @@
   },
   "name":"j25",
   "resources":[
+    {"id":{"name":"hotel_counter_front","path":"objects/hotel_counter_front/hotel_counter_front.yy",},},
     {"id":{"name":"hotel_door","path":"objects/hotel_door/hotel_door.yy",},},
     {"id":{"name":"hotel_wall_1","path":"objects/hotel_wall_1/hotel_wall_1.yy",},},
     {"id":{"name":"hotel_wall_2","path":"objects/hotel_wall_2/hotel_wall_2.yy",},},
@@ -50,6 +51,7 @@
     {"id":{"name":"spr_counter_front","path":"sprites/spr_counter_front/spr_counter_front.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_editor_wall_item","path":"sprites/spr_editor_wall_item/spr_editor_wall_item.yy",},},
+    {"id":{"name":"spr_floorItem","path":"sprites/spr_floorItem/spr_floorItem.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_occluder","path":"sprites/spr_occluder/spr_occluder.yy",},},
     {"id":{"name":"spr_painting_fake1","path":"sprites/spr_painting_fake1/spr_painting_fake1.yy",},},

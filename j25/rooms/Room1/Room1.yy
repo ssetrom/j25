@@ -19,6 +19,7 @@
     {"name":"inst_E1CF5BE","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_546C5DF1","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_5F19CFA0","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_32096F37","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -37,6 +38,7 @@
         {"$GMRInstance":"v4","%Name":"inst_E1CF5BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E1CF5BE","objectId":{"name":"obj_room_gen","path":"objects/obj_room_gen/obj_room_gen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":71.0,"y":16.0,},
         {"$GMRInstance":"v4","%Name":"inst_546C5DF1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_546C5DF1","objectId":{"name":"hotel_door","path":"objects/hotel_door/hotel_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":506.0,"y":246.0,},
         {"$GMRInstance":"v4","%Name":"inst_5F19CFA0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5F19CFA0","objectId":{"name":"hotel_door","path":"objects/hotel_door/hotel_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":42.0,"y":205.0,},
+        {"$GMRInstance":"v4","%Name":"inst_32096F37","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_32096F37","objectId":{"name":"hotel_counter_front","path":"objects/hotel_counter_front/hotel_counter_front.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":372.0,"y":294.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":10000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
