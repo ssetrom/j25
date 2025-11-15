@@ -12,18 +12,18 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"fa65fe7a-25b4-4135-b475-d35abeca104f","name":"fa65fe7a-25b4-4135-b475-d35abeca104f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"89d92abd-b503-42f5-8c46-1eda0e9aaf7c","name":"89d92abd-b503-42f5-8c46-1eda0e9aaf7c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":300,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c6d7bb6a-9ff1-41e5-8967-0d1b139cf2ff","blendMode":0,"displayName":"default","isLocked":false,"name":"c6d7bb6a-9ff1-41e5-8967-0d1b139cf2ff","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ba24f78e-e9e9-4690-b05c-921dcad5251c","blendMode":0,"displayName":"default","isLocked":false,"name":"ba24f78e-e9e9-4690-b05c-921dcad5251c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_painting_fake1",
   "nineSlice":null,
-  "origin":0,
+  "origin":4,
   "parent":{
     "name":"sprites",
     "path":"folders/sprites.yy",
@@ -69,14 +69,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"fa65fe7a-25b4-4135-b475-d35abeca104f","path":"sprites/spr_painting_fake1/spr_painting_fake1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"19a2e6d8-5e8d-45ae-acec-e91fbc015ceb","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"89d92abd-b503-42f5-8c46-1eda0e9aaf7c","path":"sprites/spr_painting_fake1/spr_painting_fake1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e3a3edb4-5cda-42c4-8cec-7f6e4fb25dc1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":200,
+    "yorigin":150,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

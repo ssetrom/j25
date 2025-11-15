@@ -1,11 +1,19 @@
 // Inherit the parent event
 depth = - y - 1
 
-if place_meeting(x,y,obj_player){
+if !obj_player.inspect_captured && place_meeting(x,y,obj_player) {
 	target_xscale = 1.1
 	target_yscale = 1.1
 	target_rot_mult = 4
+	
+	obj_player.inspect_captured = true
+	
+	if keyboard_check_pressed(vk_space) {
+		inspecting = !inspecting
+	}
+	
 }else{
+	inspecting = false
 	target_xscale = 1
 	target_yscale = 1
 	target_rot_mult = 0
@@ -23,3 +31,11 @@ image_index = hotel_wall_item_index
 if collision_point(x, y+3, hotel_wall_parent, 1, 1 ){
 	depth = collision_point(x, y+3, hotel_wall_parent, 1, 1 ).depth-1
 }
+
+if inspecting{
+	target_inspect_alpha = 1
+}else{
+	target_inspect_alpha = 0
+}
+
+inspect_alpha += (target_inspect_alpha - inspect_alpha)*0.2

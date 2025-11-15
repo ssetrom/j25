@@ -45,6 +45,10 @@ if !generated{
 				sprite_index = spr_floorItem
 				hotel_wall_item_index = irandom( array_length(other.floor_item_names)-1 )
 				icon_index = other.floor_icon_indexes[hotel_wall_item_index]
+				
+				big_sprite = other.floor_big_res_sprites[hotel_wall_item_index]
+				cur_sprite = other.floor_cur_res_sprites[hotel_wall_item_index][irandom(1)]
+				
 				if (other.floor_item_has_colors[hotel_wall_item_index]){
 					image_blend = choose(make_colour_rgb(58,64,100), make_colour_rgb(107,41,41), make_colour_rgb(112,72,98), make_colour_rgb(283,50,39))
 				}
@@ -55,6 +59,10 @@ if !generated{
 				sprite_index = spr_wall_item
 				hotel_wall_item_index = irandom( array_length(other.wall_item_names)-1 )
 				icon_index = other.wall_icon_indexes[hotel_wall_item_index]
+				
+				big_sprite = other.wall_big_res_sprites[hotel_wall_item_index]
+				cur_sprite = other.wall_cur_res_sprites[hotel_wall_item_index][irandom(1)]
+
 				if (other.wall_item_has_colors[hotel_wall_item_index]){
 					image_blend = choose(make_colour_rgb(58,64,100), make_colour_rgb(107,41,41), make_colour_rgb(112,72,98), make_colour_rgb(283,50,39))
 				}
