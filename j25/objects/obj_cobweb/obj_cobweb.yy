@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_teppe",
+  "%Name":"obj_cobweb",
   "eventList":[],
   "managed":true,
-  "name":"obj_teppe",
+  "name":"obj_cobweb",
   "overriddenProperties":[],
   "parent":{
     "name":"sprites",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_cobweb",
+    "path":"sprites/spr_cobweb/spr_cobweb.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
