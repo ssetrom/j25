@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"goto_next_hotel_room",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"goto_next_hotel_room",
+  "parent":{
+    "name":"j25",
+    "path":"j25.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

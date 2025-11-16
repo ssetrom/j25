@@ -9,7 +9,7 @@ if !text_made {
 
 if keyboard_check_pressed(ord("D")){
 	if (answer_is_yes){
-		room_goto(next_room)
+		goto_next_hotel_room()
 	}else{
 		instance_create_depth(0,0,0, obj_loss)
 		instance_destroy()
@@ -21,7 +21,7 @@ if keyboard_check_pressed(ord("A")){
 		instance_create_depth(0,0,0, obj_loss)
 		instance_destroy()
 	}else{
-		room_goto(next_room)
+		goto_next_hotel_room()
 	}
 }
 

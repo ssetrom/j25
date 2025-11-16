@@ -63,6 +63,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"roundabout","path":"rooms/roundabout/roundabout.yy",},},
     {"id":{"name":"stairway_to_heaven","path":"rooms/stairway_to_heaven/stairway_to_heaven.yy",},},
+    {"id":{"name":"goto_next_hotel_room","path":"scripts/goto_next_hotel_room/goto_next_hotel_room.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"shd_light","path":"shaders/shd_light/shd_light.yy",},},
     {"id":{"name":"shd_shadow","path":"shaders/shd_shadow/shd_shadow.yy",},},
@@ -112,8 +113,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"nothing_to_see_here","path":"rooms/nothing_to_see_here/nothing_to_see_here.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"roomId":{"name":"nothing_to_see_here","path":"rooms/nothing_to_see_here/nothing_to_see_here.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_CodeGen","path":"rooms/Room_CodeGen/Room_CodeGen.yy",},},
     {"roomId":{"name":"GiganticRoom","path":"rooms/GiganticRoom/GiganticRoom.yy",},},
