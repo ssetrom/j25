@@ -42,6 +42,7 @@
     {"id":{"name":"obj_dynamic_lights","path":"objects/obj_dynamic_lights/obj_dynamic_lights.yy",},},
     {"id":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},},
     {"id":{"name":"obj_loss","path":"objects/obj_loss/obj_loss.yy",},},
+    {"id":{"name":"obj_main_menu","path":"objects/obj_main_menu/obj_main_menu.yy",},},
     {"id":{"name":"obj_meta","path":"objects/obj_meta/obj_meta.yy",},},
     {"id":{"name":"obj_occluder","path":"objects/obj_occluder/obj_occluder.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
@@ -50,10 +51,14 @@
     {"id":{"name":"obj_teppe","path":"objects/obj_teppe/obj_teppe.yy",},},
     {"id":{"name":"obj_text_thing","path":"objects/obj_text_thing/obj_text_thing.yy",},},
     {"id":{"name":"berlin_wall","path":"rooms/berlin_wall/berlin_wall.yy",},},
+    {"id":{"name":"GiganticRoom","path":"rooms/GiganticRoom/GiganticRoom.yy",},},
     {"id":{"name":"me_like_shelfing","path":"rooms/me_like_shelfing/me_like_shelfing.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"nothing_to_see_here","path":"rooms/nothing_to_see_here/nothing_to_see_here.yy",},},
+=======
+    {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+>>>>>>> f2a3984056eef5ca6dba13b17f0131b658c2359c
     {"id":{"name":"Room_CodeGen","path":"rooms/Room_CodeGen/Room_CodeGen.yy",},},
-    {"id":{"name":"Room1_Dupl","path":"rooms/Room1_Dupl/Room1_Dupl.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"roundabout","path":"rooms/roundabout/roundabout.yy",},},
     {"id":{"name":"stairway_to_heaven","path":"rooms/stairway_to_heaven/stairway_to_heaven.yy",},},
@@ -65,6 +70,7 @@
     {"id":{"name":"snd_grunt_three","path":"sounds/snd_grunt_three/snd_grunt_three.yy",},},
     {"id":{"name":"snd_grunt_two","path":"sounds/snd_grunt_two/snd_grunt_two.yy",},},
     {"id":{"name":"spr_carpet","path":"sprites/spr_carpet/spr_carpet.yy",},},
+    {"id":{"name":"spr_bkg","path":"sprites/spr_bkg/spr_bkg.yy",},},
     {"id":{"name":"spr_clock_fake1","path":"sprites/spr_clock_fake1/spr_clock_fake1.yy",},},
     {"id":{"name":"spr_clock_fake2","path":"sprites/spr_clock_fake2/spr_clock_fake2.yy",},},
     {"id":{"name":"spr_clock_normal","path":"sprites/spr_clock_normal/spr_clock_normal.yy",},},
@@ -80,6 +86,7 @@
     {"id":{"name":"spr_keyfake1","path":"sprites/spr_keyfake1/spr_keyfake1.yy",},},
     {"id":{"name":"spr_keyfake2","path":"sprites/spr_keyfake2/spr_keyfake2.yy",},},
     {"id":{"name":"spr_keynormal","path":"sprites/spr_keynormal/spr_keynormal.yy",},},
+    {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
     {"id":{"name":"spr_occluder","path":"sprites/spr_occluder/spr_occluder.yy",},},
     {"id":{"name":"spr_painting_fake1","path":"sprites/spr_painting_fake1/spr_painting_fake1.yy",},},
     {"id":{"name":"spr_painting_fake2","path":"sprites/spr_painting_fake2/spr_painting_fake2.yy",},},
@@ -102,10 +109,15 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+<<<<<<< HEAD
     {"roomId":{"name":"nothing_to_see_here","path":"rooms/nothing_to_see_here/nothing_to_see_here.yy",},},
+=======
+    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+>>>>>>> f2a3984056eef5ca6dba13b17f0131b658c2359c
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
     {"roomId":{"name":"Room_CodeGen","path":"rooms/Room_CodeGen/Room_CodeGen.yy",},},
-    {"roomId":{"name":"Room1_Dupl","path":"rooms/Room1_Dupl/Room1_Dupl.yy",},},
+    {"roomId":{"name":"GiganticRoom","path":"rooms/GiganticRoom/GiganticRoom.yy",},},
     {"roomId":{"name":"berlin_wall","path":"rooms/berlin_wall/berlin_wall.yy",},},
     {"roomId":{"name":"me_like_shelfing","path":"rooms/me_like_shelfing/me_like_shelfing.yy",},},
     {"roomId":{"name":"stairway_to_heaven","path":"rooms/stairway_to_heaven/stairway_to_heaven.yy",},},

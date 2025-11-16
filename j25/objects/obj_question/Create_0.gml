@@ -14,4 +14,4 @@ my_string = "This is a random question: one, two, three, four, five, six, seven"
 
 text_made  = false
 
-next_room = choose(Room1_Dupl,Room1)
+next_room = choose(GiganticRoom,Room1)
