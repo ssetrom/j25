@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_flashflicker",
+  "%Name":"snd_sick",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.2314059,
+  "duration":22.569796,
   "exportDir":"",
-  "name":"snd_flashflicker",
+  "name":"snd_sick",
   "parent":{
     "name":"sounds",
     "path":"folders/sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_flashflicker.wav",
+  "soundFile":"snd_sick.mp3",
   "volume":1.0,
 }

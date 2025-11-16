@@ -23,7 +23,7 @@ if !generated{
 	array_shuffle_ext(array_of_items)
 
 	if (array_length(array_of_items)<7){
-		show_message(string(array_length(array_of_items)))
+		show_message( room_get_name(room) )
 		show_message("ROOM NEEDS TO HAVE AT LEAST ONE 7 items")
 		game_end()
 	}

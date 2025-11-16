@@ -1,6 +1,12 @@
 //If inside
+if (demon_time == 60*10){
+	with obj_snd_manager{
+		audio_sound_gain(my_song, 0, 300);
+		my_song = audio_play_sound(snd_sick, 1, 1)
+	}
+}
 demon_time--
-if demon_time < 0 {
+if demon_time < -60 {
 	dead = true;
 	if !instance_exists(obj_loss){
 		instance_create_depth(0,0,0,obj_loss)
@@ -13,10 +19,14 @@ var mdist = point_distance(0,0,mvx,mvy)
 var mdir = point_direction(0,0,mvx,mvy)
 
 if !can_move mdist =0
+actively_walking = mdist>0.1
 
 hspeed += lengthdir_x(mdist, mdir) * 0.65
 vspeed += lengthdir_y(mdist, mdir) * 0.65
 speed *= 0.8;
+
+head_pos_x += (x-head_pos_x) * 0.5
+head_pos_y += (y-head_pos_y) * 0.5
 
 if point_distance(x, y, prev_distance_measure_x, prev_distance_measure_y) > 30 {
 	prev_distance_measure_x = x
@@ -24,9 +34,15 @@ if point_distance(x, y, prev_distance_measure_x, prev_distance_measure_y) > 30 {
 	sound_pitched(choose(snd_footstep_1, snd_footstep_2, snd_footstep_3), 0.9, 1.1)
 }
 
-
 if (speed>0.1){
+	_t += 0.2
 	if (hspeed<0) dir_mult = -1 else dir_mult = 1
+}
+
+if actively_walking{
+	bobb += (1 - bobb)*0.5
+}else{
+	bobb += (0 - bobb)*0.5
 }
 
 if place_meeting(x, y, obj_collision){

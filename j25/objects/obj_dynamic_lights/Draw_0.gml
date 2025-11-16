@@ -28,7 +28,7 @@ var _z = 0;
 with(obj_player){
 	
 	var should_light = irandom(demon_time)>15
-	if (should_light){
+	if (should_light && demon_time>0){
 		//Draw the shadows (AKA light blockers)
 		shader_set(shd_shadow);
 		shader_set_uniform_f(_u_pos2,x-cx,y-cy - 20);
@@ -61,7 +61,7 @@ with(obj_player){
 	
 		_z--; //Next set of shadows and lights is set closer to the screen
 	}else{
-		if !audio_is_playing(flicker_sound){
+		if demon_time>0.5 { //&& !audio_is_playing(flicker_sound){
 			flicker_sound = sound_pitched(snd_flashflicker, 0.9, 1.1)
 		}
 	}

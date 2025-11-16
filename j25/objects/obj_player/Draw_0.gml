@@ -1,1 +1,2 @@
-draw_sprite_ext( sprite_index, image_index, x, y, image_xscale*dir_mult, image_yscale, 0, image_blend, image_alpha )
+draw_sprite_ext( spr_body, image_index, x, y+sin(_t)*bobb*2, image_xscale*dir_mult, image_yscale, 0, image_blend, image_alpha )
+draw_sprite_ext( spr_head, image_index, head_pos_x, head_pos_y-50+sin(_t)*bobb*1, image_xscale*dir_mult, image_yscale, 0, image_blend, image_alpha )
