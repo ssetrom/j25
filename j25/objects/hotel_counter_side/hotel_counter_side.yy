@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cobweb",
+  "%Name":"hotel_counter_side",
   "eventList":[],
   "managed":true,
-  "name":"obj_cobweb",
+  "name":"hotel_counter_side",
   "overriddenProperties":[],
   "parent":{
     "name":"hotel",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cobweb",
-    "path":"sprites/spr_cobweb/spr_cobweb.yy",
+    "name":"spr_counter_side",
+    "path":"sprites/spr_counter_side/spr_counter_side.yy",
   },
   "spriteMaskId":null,
   "visible":true,

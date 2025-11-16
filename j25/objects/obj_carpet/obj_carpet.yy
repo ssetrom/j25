@@ -6,8 +6,8 @@
   "name":"obj_carpet",
   "overriddenProperties":[],
   "parent":{
-    "name":"sprites",
-    "path":"folders/sprites.yy",
+    "name":"hotel",
+    "path":"folders/hotel.yy",
   },
   "parentObjectId":null,
   "persistent":false,

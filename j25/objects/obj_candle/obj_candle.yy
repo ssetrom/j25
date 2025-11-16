@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cobweb",
+  "%Name":"obj_candle",
   "eventList":[],
   "managed":true,
-  "name":"obj_cobweb",
+  "name":"obj_candle",
   "overriddenProperties":[],
   "parent":{
     "name":"hotel",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cobweb",
-    "path":"sprites/spr_cobweb/spr_cobweb.yy",
+    "name":"spr_candle",
+    "path":"sprites/spr_candle/spr_candle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
