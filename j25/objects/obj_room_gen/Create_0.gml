@@ -20,3 +20,5 @@ randomise()
 
 num_requirements = 3
 requirements = [0,0,0]
+
+question_target_class = 0
