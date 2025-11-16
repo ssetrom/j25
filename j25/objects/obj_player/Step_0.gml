@@ -1,6 +1,12 @@
 //If inside
+if (demon_time == 60*10){
+	with obj_snd_manager{
+		audio_sound_gain(my_song, 0, 300);
+		my_song = audio_play_sound(snd_sick, 1, 1)
+	}
+}
 demon_time--
-if demon_time < 0 {
+if demon_time < -60 {
 	dead = true;
 	if !instance_exists(obj_loss){
 		instance_create_depth(0,0,0,obj_loss)
@@ -21,7 +27,6 @@ speed *= 0.8;
 
 head_pos_x += (x-head_pos_x) * 0.5
 head_pos_y += (y-head_pos_y) * 0.5
-
 
 if point_distance(x, y, prev_distance_measure_x, prev_distance_measure_y) > 30 {
 	prev_distance_measure_x = x
