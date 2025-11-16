@@ -8,3 +8,4 @@ instance_create_depth(0,0,0,obj_meta)
 instance_create_depth(0,0,0,obj_camera)
 
 can_move = true
+dead = false

@@ -1,10 +1,6 @@
-var cam = view_camera[0];
-var cx  = camera_get_view_x(cam);
-var cy  = camera_get_view_y(cam);
 
-draw_set_colour(c_black)
-draw_set_alpha(0.7 * current_alpha)
-draw_rectangle(-1000,-1000,1000,1000,0)
+var cx  = 0
+var cy  = 0
 
 draw_set_alpha(1 * current_alpha)
 draw_set_colour(c_white)

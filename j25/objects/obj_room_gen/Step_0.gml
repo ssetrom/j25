@@ -128,12 +128,17 @@ if !generated{
 		var targ_item = 0
 		for (var tt = 0; tt<array_length(array_of_items); tt++){
 			targ_item = array_of_items[tt]
-			if (!targ_item.cursed){
+			if (!targ_item.maybe_cursed){
 				break;
 			}
 		}
 		
-		var typename = wall_item_names[targ_item.hotel_wall_item_index]
+		var typename = ""
+		if (targ_item.object_index==hotel_wall_item){
+			typename = wall_item_names[targ_item.hotel_wall_item_index]
+		}else{
+			typename = floor_item_names[targ_item.hotel_wall_item_index]
+		}
 		var num_found = 0
 		for (var tt = 0; tt<instance_number(typeToCheck); tt++){
 			 var this_one = instance_find(typeToCheck, tt);

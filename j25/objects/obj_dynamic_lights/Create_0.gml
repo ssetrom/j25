@@ -18,4 +18,4 @@ vf = vertex_format_end();
 vb = vertex_create_buffer();
 
 //turn on Debug
-show_debug_overlay(1);
+//show_debug_overlay(1);

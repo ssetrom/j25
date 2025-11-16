@@ -20,11 +20,11 @@ wobble += (target_wobble-wobble)*0.1
 if (wobble<0.01) t=1.5
 
 
-if (player_collision && keyboard_check_pressed(vk_space)) {
+if (player_collision && keyboard_check_pressed(vk_space) && !obj_player.dead) {
 	
 	if (!good_door){
 		if  !obj_room_gen.room_is_cursed{
-			show_message("YOU LOOOOOS");
+			instance_create_depth(0,0,0, obj_loss)
 		}else{
 			with instance_create_depth(0,0,0,obj_question){
 				my_string = obj_room_gen.end_question
@@ -34,7 +34,7 @@ if (player_collision && keyboard_check_pressed(vk_space)) {
 	}
 	if (good_door){
 		if obj_room_gen.room_is_cursed{
-			show_message("YOU LOOOOOS");
+			instance_create_depth(0,0,0, obj_loss)
 		}else{
 			with instance_create_depth(0,0,0,obj_question){
 				my_string = obj_room_gen.end_question

@@ -1,0 +1,5 @@
+draw_set_colour(c_black)
+draw_set_alpha(0.7 * current_alpha)
+draw_rectangle(-1000,-1000,1000,1000,0)
+draw_set_alpha(1)
+draw_set_colour(c_white)

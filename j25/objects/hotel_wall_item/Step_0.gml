@@ -1,6 +1,6 @@
 depth = - y - 1
 
-if !obj_player.inspect_captured && place_meeting(x,y,obj_player) {
+if !obj_player.dead && !obj_player.inspect_captured && place_meeting(x,y,obj_player) {
 	target_xscale = 1.1
 	target_yscale = 1.1
 	target_rot_mult = 4
@@ -16,6 +16,9 @@ if !obj_player.inspect_captured && place_meeting(x,y,obj_player) {
 	target_xscale = 1
 	target_yscale = 1
 	target_rot_mult = 0
+}
+if instance_exists(obj_question){
+	inspecting = false
 }
 
 image_xscale += (target_xscale-image_xscale) * 0.2
