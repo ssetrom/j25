@@ -50,6 +50,8 @@
     {"id":{"name":"obj_main_menu","path":"objects/obj_main_menu/obj_main_menu.yy",},},
     {"id":{"name":"obj_meta","path":"objects/obj_meta/obj_meta.yy",},},
     {"id":{"name":"obj_occluder","path":"objects/obj_occluder/obj_occluder.yy",},},
+    {"id":{"name":"obj_papers","path":"objects/obj_papers/obj_papers.yy",},},
+    {"id":{"name":"obj_paperstack","path":"objects/obj_paperstack/obj_paperstack.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_question","path":"objects/obj_question/obj_question.yy",},},
     {"id":{"name":"obj_room_gen","path":"objects/obj_room_gen/obj_room_gen.yy",},},
@@ -78,7 +80,11 @@
     {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},},
     {"id":{"name":"snd_scream","path":"sounds/snd_scream/snd_scream.yy",},},
     {"id":{"name":"spr_bkg","path":"sprites/spr_bkg/spr_bkg.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_butt","path":"sprites/spr_butt/spr_butt.yy",},},
+=======
+    {"id":{"name":"spr_body","path":"sprites/spr_body/spr_body.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_candle","path":"sprites/spr_candle/spr_candle.yy",},},
     {"id":{"name":"spr_carpet","path":"sprites/spr_carpet/spr_carpet.yy",},},
     {"id":{"name":"spr_clock_fake1","path":"sprites/spr_clock_fake1/spr_clock_fake1.yy",},},
@@ -92,6 +98,8 @@
     {"id":{"name":"spr_editor_wall_item","path":"sprites/spr_editor_wall_item/spr_editor_wall_item.yy",},},
     {"id":{"name":"spr_floorItem","path":"sprites/spr_floorItem/spr_floorItem.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
+    {"id":{"name":"spr_hand","path":"sprites/spr_hand/spr_hand.yy",},},
+    {"id":{"name":"spr_head","path":"sprites/spr_head/spr_head.yy",},},
     {"id":{"name":"spr_icons","path":"sprites/spr_icons/spr_icons.yy",},},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},},
     {"id":{"name":"spr_keyfake1","path":"sprites/spr_keyfake1/spr_keyfake1.yy",},},
@@ -99,6 +107,8 @@
     {"id":{"name":"spr_keynormal","path":"sprites/spr_keynormal/spr_keynormal.yy",},},
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
     {"id":{"name":"spr_occluder","path":"sprites/spr_occluder/spr_occluder.yy",},},
+    {"id":{"name":"spr_pages","path":"sprites/spr_pages/spr_pages.yy",},},
+    {"id":{"name":"spr_pagestack","path":"sprites/spr_pagestack/spr_pagestack.yy",},},
     {"id":{"name":"spr_painting_fake1","path":"sprites/spr_painting_fake1/spr_painting_fake1.yy",},},
     {"id":{"name":"spr_painting_fake2","path":"sprites/spr_painting_fake2/spr_painting_fake2.yy",},},
     {"id":{"name":"spr_painting_normal","path":"sprites/spr_painting_normal/spr_painting_normal.yy",},},
@@ -120,12 +130,16 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+<<<<<<< Updated upstream
+=======
+    {"roomId":{"name":"GiganticRoom","path":"rooms/GiganticRoom/GiganticRoom.yy",},},
+    {"roomId":{"name":"nothing_to_see_here","path":"rooms/nothing_to_see_here/nothing_to_see_here.yy",},},
+>>>>>>> Stashed changes
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"funtimes","path":"rooms/funtimes/funtimes.yy",},},
     {"roomId":{"name":"nothing_to_see_here","path":"rooms/nothing_to_see_here/nothing_to_see_here.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_CodeGen","path":"rooms/Room_CodeGen/Room_CodeGen.yy",},},
-    {"roomId":{"name":"GiganticRoom","path":"rooms/GiganticRoom/GiganticRoom.yy",},},
     {"roomId":{"name":"berlin_wall","path":"rooms/berlin_wall/berlin_wall.yy",},},
     {"roomId":{"name":"me_like_shelfing","path":"rooms/me_like_shelfing/me_like_shelfing.yy",},},
     {"roomId":{"name":"stairway_to_heaven","path":"rooms/stairway_to_heaven/stairway_to_heaven.yy",},},
