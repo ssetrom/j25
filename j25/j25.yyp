@@ -95,10 +95,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_CodeGen","path":"rooms/Room_CodeGen/Room_CodeGen.yy",},},
     {"roomId":{"name":"Room1_Dupl","path":"rooms/Room1_Dupl/Room1_Dupl.yy",},},
-    {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
