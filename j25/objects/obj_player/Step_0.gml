@@ -14,8 +14,8 @@ var mdir = point_direction(0,0,mvx,mvy)
 
 if !can_move mdist =0
 
-hspeed += lengthdir_x(mdist, mdir) * 0.5
-vspeed += lengthdir_y(mdist, mdir) * 0.5
+hspeed += lengthdir_x(mdist, mdir) * 0.65
+vspeed += lengthdir_y(mdist, mdir) * 0.65
 speed *= 0.8;
 
 if point_distance(x, y, prev_distance_measure_x, prev_distance_measure_y) > 30 {

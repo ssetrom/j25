@@ -141,6 +141,7 @@
     {"roomId":{"name":"stairway_to_heaven","path":"rooms/stairway_to_heaven/stairway_to_heaven.yy",},},
     {"roomId":{"name":"roundabout","path":"rooms/roundabout/roundabout.yy",},},
     {"roomId":{"name":"wink","path":"rooms/wink/wink.yy",},},
+    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
