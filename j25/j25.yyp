@@ -87,6 +87,7 @@
     {"id":{"name":"spr_wall_4","path":"sprites/spr_wall_4/spr_wall_4.yy",},},
     {"id":{"name":"spr_wall_item","path":"sprites/spr_wall_item/spr_wall_item.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"spr_wallvertical","path":"sprites/spr_wallvertical/spr_wallvertical.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
