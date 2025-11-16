@@ -10,4 +10,4 @@ instance_create_depth(0,0,0,obj_camera)
 can_move = true
 dead = false
 
-demon_time = 60*40
+demon_time = 60*60

@@ -1,4 +1,5 @@
 sound_pitched(snd_die, 0.9, 1.1)
+sound_pitched(snd_scream, 0.9, 1.1)
 
 instance_destroy(obj_question)
 

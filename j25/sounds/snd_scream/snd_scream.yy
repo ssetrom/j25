@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_music",
+  "%Name":"snd_scream",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":146.33795,
+  "duration":3.9992745,
   "exportDir":"",
-  "name":"snd_music",
+  "name":"snd_scream",
   "parent":{
     "name":"sounds",
     "path":"folders/sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_music.mp3",
-  "volume":0.67,
+  "soundFile":"snd_scream.wav",
+  "volume":1.0,
 }
