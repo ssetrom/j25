@@ -28,6 +28,13 @@ speed *= 0.8;
 head_pos_x += (x-head_pos_x) * 0.5
 head_pos_y += (y-head_pos_y) * 0.5
 
+arm_pos_x += (x-arm_pos_x) * 0.2
+arm_pos_y += (y-arm_pos_y-5) * 0.2
+
+
+flashlight_pos_x += (x+cos(flashlight_direction)*15-flashlight_pos_x) * 0.4
+flashlight_pos_y += (y-10-sin(flashlight_direction)*15-flashlight_pos_y) * 0.2
+
 if point_distance(x, y, prev_distance_measure_x, prev_distance_measure_y) > 30 {
 	prev_distance_measure_x = x
 	prev_distance_measure_y = y

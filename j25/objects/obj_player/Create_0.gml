@@ -25,3 +25,10 @@ _t = 0
 
 head_pos_x = x
 head_pos_y = y
+
+arm_pos_x = x;
+arm_pos_y = y;
+
+flashlight_pos_x = x;
+flashlight_pos_y = y;
+
