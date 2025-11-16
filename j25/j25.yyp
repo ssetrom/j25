@@ -57,6 +57,10 @@
     {"id":{"name":"GiganticRoom","path":"rooms/GiganticRoom/GiganticRoom.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"me_like_shelfing","path":"rooms/me_like_shelfing/me_like_shelfing.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"nothing_to_see_here_1","path":"rooms/nothing_to_see_here_1/nothing_to_see_here_1.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"nothing_to_see_here","path":"rooms/nothing_to_see_here/nothing_to_see_here.yy",},},
     {"id":{"name":"Room_CodeGen","path":"rooms/Room_CodeGen/Room_CodeGen.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -70,7 +74,10 @@
     {"id":{"name":"snd_grunt_three","path":"sounds/snd_grunt_three/snd_grunt_three.yy",},},
     {"id":{"name":"snd_grunt_two","path":"sounds/snd_grunt_two/snd_grunt_two.yy",},},
     {"id":{"name":"spr_bkg","path":"sprites/spr_bkg/spr_bkg.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"spr_candle","path":"sprites/spr_candle/spr_candle.yy",},},
+=======
+>>>>>>> Stashed changes
     {"id":{"name":"spr_carpet","path":"sprites/spr_carpet/spr_carpet.yy",},},
     {"id":{"name":"spr_clock_fake1","path":"sprites/spr_clock_fake1/spr_clock_fake1.yy",},},
     {"id":{"name":"spr_clock_fake2","path":"sprites/spr_clock_fake2/spr_clock_fake2.yy",},},
@@ -120,6 +127,7 @@
     {"roomId":{"name":"me_like_shelfing","path":"rooms/me_like_shelfing/me_like_shelfing.yy",},},
     {"roomId":{"name":"stairway_to_heaven","path":"rooms/stairway_to_heaven/stairway_to_heaven.yy",},},
     {"roomId":{"name":"roundabout","path":"rooms/roundabout/roundabout.yy",},},
+    {"roomId":{"name":"nothing_to_see_here_1","path":"rooms/nothing_to_see_here_1/nothing_to_see_here_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
