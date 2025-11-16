@@ -81,7 +81,11 @@
     {"id":{"name":"snd_scream","path":"sounds/snd_scream/snd_scream.yy",},},
     {"id":{"name":"spr_bkg","path":"sprites/spr_bkg/spr_bkg.yy",},},
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     {"id":{"name":"spr_butt","path":"sprites/spr_butt/spr_butt.yy",},},
+=======
+    {"id":{"name":"spr_body","path":"sprites/spr_body/spr_body.yy",},},
+>>>>>>> Stashed changes
 =======
     {"id":{"name":"spr_body","path":"sprites/spr_body/spr_body.yy",},},
 >>>>>>> Stashed changes
@@ -131,7 +135,10 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
     {"roomId":{"name":"GiganticRoom","path":"rooms/GiganticRoom/GiganticRoom.yy",},},
     {"roomId":{"name":"nothing_to_see_here","path":"rooms/nothing_to_see_here/nothing_to_see_here.yy",},},
 >>>>>>> Stashed changes
