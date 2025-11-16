@@ -46,3 +46,10 @@ if tag=="counter_front"{
 	n = instance_create_depth( x+-20,y+-27,0,obj_collision);
 	n.image_xscale=39; n.image_yscale=29
 }
+
+if tag=="hotel_wall_5"{
+	n = instance_create_depth( x+-9,y+-94,0,obj_collision);
+	n.image_xscale=18; n.image_yscale=94
+	n = instance_create_depth( x+-1,y+-109,0,obj_occluder);
+	n.image_xscale=4; n.image_yscale=74
+}

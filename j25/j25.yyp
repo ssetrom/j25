@@ -34,6 +34,7 @@
     {"id":{"name":"hotel_wall_2","path":"objects/hotel_wall_2/hotel_wall_2.yy",},},
     {"id":{"name":"hotel_wall_3","path":"objects/hotel_wall_3/hotel_wall_3.yy",},},
     {"id":{"name":"hotel_wall_4","path":"objects/hotel_wall_4/hotel_wall_4.yy",},},
+    {"id":{"name":"hotel_wall_5","path":"objects/hotel_wall_5/hotel_wall_5.yy",},},
     {"id":{"name":"hotel_wall_item","path":"objects/hotel_wall_item/hotel_wall_item.yy",},},
     {"id":{"name":"hotel_wall_parent","path":"objects/hotel_wall_parent/hotel_wall_parent.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
@@ -95,8 +96,8 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room1_Dupl","path":"rooms/Room1_Dupl/Room1_Dupl.yy",},},
     {"roomId":{"name":"Room_CodeGen","path":"rooms/Room_CodeGen/Room_CodeGen.yy",},},
+    {"roomId":{"name":"Room1_Dupl","path":"rooms/Room1_Dupl/Room1_Dupl.yy",},},
     {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
   ],
   "templateType":"game",
