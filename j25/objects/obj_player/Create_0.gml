@@ -10,7 +10,7 @@ instance_create_depth(0,0,0,obj_camera)
 can_move = true
 dead = false
 
-demon_time = 60*20
+demon_time = 60*60
 
 flicker_sound = -1
 
