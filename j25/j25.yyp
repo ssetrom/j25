@@ -122,7 +122,6 @@
     {"roomId":{"name":"me_like_shelfing","path":"rooms/me_like_shelfing/me_like_shelfing.yy",},},
     {"roomId":{"name":"stairway_to_heaven","path":"rooms/stairway_to_heaven/stairway_to_heaven.yy",},},
     {"roomId":{"name":"roundabout","path":"rooms/roundabout/roundabout.yy",},},
-    {"roomId":{"name":"nothing_to_see_here_1","path":"rooms/nothing_to_see_here_1/nothing_to_see_here_1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
