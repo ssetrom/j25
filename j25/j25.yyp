@@ -46,6 +46,7 @@
     {"id":{"name":"Room_CodeGen","path":"rooms/Room_CodeGen/Room_CodeGen.yy",},},
     {"id":{"name":"Room1_Dupl","path":"rooms/Room1_Dupl/Room1_Dupl.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"room2","path":"rooms/room2/room2.yy",},},
     {"id":{"name":"shd_light","path":"shaders/shd_light/shd_light.yy",},},
     {"id":{"name":"shd_shadow","path":"shaders/shd_shadow/shd_shadow.yy",},},
     {"id":{"name":"spr_clock_fake1","path":"sprites/spr_clock_fake1/spr_clock_fake1.yy",},},
@@ -86,6 +87,7 @@
     {"roomId":{"name":"Room1_Dupl","path":"rooms/Room1_Dupl/Room1_Dupl.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room_CodeGen","path":"rooms/Room_CodeGen/Room_CodeGen.yy",},},
+    {"roomId":{"name":"room2","path":"rooms/room2/room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
