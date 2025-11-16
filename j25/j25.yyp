@@ -65,6 +65,7 @@
     {"id":{"name":"nothing_to_see_here","path":"rooms/nothing_to_see_here/nothing_to_see_here.yy",},},
     {"id":{"name":"Room_CodeGen","path":"rooms/Room_CodeGen/Room_CodeGen.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room67","path":"rooms/Room67/Room67.yy",},},
     {"id":{"name":"roundabout","path":"rooms/roundabout/roundabout.yy",},},
     {"id":{"name":"stairway_to_heaven","path":"rooms/stairway_to_heaven/stairway_to_heaven.yy",},},
     {"id":{"name":"wink","path":"rooms/wink/wink.yy",},},
@@ -97,6 +98,7 @@
     {"id":{"name":"spr_counter_side","path":"sprites/spr_counter_side/spr_counter_side.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_editor_wall_item","path":"sprites/spr_editor_wall_item/spr_editor_wall_item.yy",},},
+    {"id":{"name":"spr_flash","path":"sprites/spr_flash/spr_flash.yy",},},
     {"id":{"name":"spr_floorItem","path":"sprites/spr_floorItem/spr_floorItem.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
     {"id":{"name":"spr_hand","path":"sprites/spr_hand/spr_hand.yy",},},
@@ -142,6 +144,7 @@
     {"roomId":{"name":"roundabout","path":"rooms/roundabout/roundabout.yy",},},
     {"roomId":{"name":"wink","path":"rooms/wink/wink.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
+    {"roomId":{"name":"Room67","path":"rooms/Room67/Room67.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
