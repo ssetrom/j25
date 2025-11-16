@@ -19,3 +19,5 @@ vb = vertex_create_buffer();
 
 //turn on Debug
 //show_debug_overlay(1);
+
+flicker_sound = -1
