@@ -17,3 +17,11 @@ flicker_sound = -1
 
 prev_distance_measure_x = x
 prev_distance_measure_y = y
+
+actively_walking = false
+bobb = 0
+target_bobb = 0
+_t = 0
+
+head_pos_x = x
+head_pos_y = y
