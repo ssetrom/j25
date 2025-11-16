@@ -110,6 +110,10 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+    {"roomId":{"name":"Room1_Dupl","path":"rooms/Room1_Dupl/Room1_Dupl.yy",},},
+>>>>>>> Stashed changes
 =======
     {"roomId":{"name":"Room1_Dupl","path":"rooms/Room1_Dupl/Room1_Dupl.yy",},},
 >>>>>>> Stashed changes
