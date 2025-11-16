@@ -113,6 +113,11 @@ if !generated{
 		}
 	}
 	
+	var typeToCheck = irandom(1) ? hotel_wall_item : hotel_floor_item
+	var numOfType = instance_number(typeToCheck);
+	
+	
+	
 	num_requirements = num_generated_required
 	
 	generated = true

@@ -5,6 +5,8 @@ var mvy = keyboard_check(ord("S")) - keyboard_check(ord("W"))
 var mdist = point_distance(0,0,mvx,mvy)
 var mdir = point_direction(0,0,mvx,mvy)
 
+if !can_move mdist =0
+
 hspeed += lengthdir_x(mdist, mdir) * 0.5
 vspeed += lengthdir_y(mdist, mdir) * 0.5
 speed *= 0.8;

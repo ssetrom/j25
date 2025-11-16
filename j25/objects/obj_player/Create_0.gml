@@ -6,3 +6,5 @@ instance_create_depth(0,0,0,obj_room_gen)
 instance_create_depth(0,0,0,obj_dynamic_lights)
 instance_create_depth(0,0,0,obj_meta)
 instance_create_depth(0,0,0,obj_camera)
+
+can_move = true
