@@ -27,37 +27,40 @@ var cy  = camera_get_view_y(cam);
 var _z = 0;
 with(obj_player){
 	
-	//Draw the shadows (AKA light blockers)
-	shader_set(shd_shadow);
-	shader_set_uniform_f(_u_pos2,x-cx,y-cy - 20);
-	shader_set_uniform_f(_u_z2,_z);
-	vertex_submit(_vb,pr_trianglelist,-1);
+	var should_light = irandom(demon_time)>15
+	if (should_light){
+		//Draw the shadows (AKA light blockers)
+		shader_set(shd_shadow);
+		shader_set_uniform_f(_u_pos2,x-cx,y-cy - 20);
+		shader_set_uniform_f(_u_z2,_z);
+		vertex_submit(_vb,pr_trianglelist,-1);
 	
-	//Draw the Light
-	gpu_set_blendmode(bm_add);
-	shader_set(shd_light);
-	shader_set_uniform_f(_u_pos,x - cx,y - cy - 20);
-	shader_set_uniform_f(_u_mult, 0.5);
-	shader_set_uniform_f(_u_redness, 0);
+		//Draw the Light
+		gpu_set_blendmode(bm_add);
+		shader_set(shd_light);
+		shader_set_uniform_f(_u_pos,x - cx,y - cy - 20);
+		shader_set_uniform_f(_u_mult, 0.5);
+		shader_set_uniform_f(_u_redness, 0);
 	
-	var tx0 = x
-	var ty0 = y - 20
+		var tx0 = x
+		var ty0 = y - 20
 	
-	var tx1 = x + cos((pi/3) + flashlight_direction) * 700
-	var ty1 = y - sin((pi/3) + flashlight_direction) * 700 - 20
+		var tx1 = x + cos((pi/3) + flashlight_direction) * 700
+		var ty1 = y - sin((pi/3) + flashlight_direction) * 700 - 20
 	
-	var tx2 = x + cos((-pi/3) + flashlight_direction) * 700
-	var ty2 = y - sin((-pi/3) + flashlight_direction) * 700 - 20
+		var tx2 = x + cos((-pi/3) + flashlight_direction) * 700
+		var ty2 = y - sin((-pi/3) + flashlight_direction) * 700 - 20
 
-	draw_triangle(tx0 - cx, ty0 - cy, tx1 - cx, ty1 - cy, tx2 - cx, ty2 - cy, 0);
+		draw_triangle(tx0 - cx, ty0 - cy, tx1 - cx, ty1 - cy, tx2 - cx, ty2 - cy, 0);
 	
-	shader_set_uniform_f(_u_mult, 2);
+		shader_set_uniform_f(_u_mult, 2);
 	
-	draw_circle(tx0 - cx, ty0 - cy, 200, 0)
+		draw_circle(tx0 - cx, ty0 - cy, 200, 0)
 
-	gpu_set_blendmode(bm_normal);
+		gpu_set_blendmode(bm_normal);
 	
-	_z--; //Next set of shadows and lights is set closer to the screen
+		_z--; //Next set of shadows and lights is set closer to the screen
+	}
 }
 shader_reset();
 

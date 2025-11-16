@@ -1,4 +1,11 @@
 //If inside
+demon_time--
+if demon_time < 0 {
+	dead = true;
+	if !instance_exists(obj_loss){
+		instance_create_depth(0,0,0,obj_loss)
+	}
+}
 
 var mvx = keyboard_check(ord("D")) - keyboard_check(ord("A"))
 var mvy = keyboard_check(ord("S")) - keyboard_check(ord("W"))

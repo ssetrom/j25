@@ -5,5 +5,4 @@ var cy  = camera_get_view_y(cam);
 
 for (var i = 0; i<num_requirements; i++) {
 	draw_sprite_ext(spr_icons, requirements[i].icon_index, 50 +cx , 50*(i+1) + cy, 1,1,0, requirements[i].image_blend, 1)
-	if requirements[i].cursed draw_text(50 +cx , 50*(i+1) + cy, "CURSED")
 }
