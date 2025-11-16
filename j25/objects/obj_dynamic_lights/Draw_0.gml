@@ -60,6 +60,10 @@ with(obj_player){
 		gpu_set_blendmode(bm_normal);
 	
 		_z--; //Next set of shadows and lights is set closer to the screen
+	}else{
+		if !audio_is_playing(flicker_sound){
+			flicker_sound = sound_pitched(snd_flashflicker, 0.9, 1.1)
+		}
 	}
 }
 shader_reset();

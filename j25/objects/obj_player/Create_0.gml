@@ -11,3 +11,9 @@ can_move = true
 dead = false
 
 demon_time = 60*60
+
+flicker_sound = -1
+
+
+prev_distance_measure_x = x
+prev_distance_measure_y = y
