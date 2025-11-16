@@ -41,6 +41,6 @@ if place_meeting(x+hspeed, y+vspeed, obj_collision){
     }
 }
 
-flashlight_direction -= (keyboard_check(ord("E")) - keyboard_check(ord("Q"))) * 0.1
+flashlight_direction -= (keyboard_check(ord("L")) - keyboard_check(ord("K"))) * 0.1
 
 depth = -y
