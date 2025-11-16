@@ -114,6 +114,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"funtimes","path":"rooms/funtimes/funtimes.yy",},},
     {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"roomId":{"name":"nothing_to_see_here","path":"rooms/nothing_to_see_here/nothing_to_see_here.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -124,7 +125,6 @@
     {"roomId":{"name":"stairway_to_heaven","path":"rooms/stairway_to_heaven/stairway_to_heaven.yy",},},
     {"roomId":{"name":"roundabout","path":"rooms/roundabout/roundabout.yy",},},
     {"roomId":{"name":"wink","path":"rooms/wink/wink.yy",},},
-    {"roomId":{"name":"funtimes","path":"rooms/funtimes/funtimes.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
