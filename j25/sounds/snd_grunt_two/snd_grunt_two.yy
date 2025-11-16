@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"snd_grunt_one",
+  "%Name":"snd_grunt_two",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.4768125,
+  "duration":1.4768027,
   "exportDir":"",
-  "name":"snd_grunt_one",
+  "name":"snd_grunt_two",
   "parent":{
     "name":"sounds",
     "path":"folders/sounds.yy",
@@ -20,7 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":48000,
-  "soundFile":"snd_grunt_one.wav",
+  "sampleRate":44100,
+  "soundFile":"snd_grunt_two.wav",
   "volume":1.0,
 }

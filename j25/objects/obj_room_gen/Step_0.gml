@@ -13,6 +13,10 @@ function array_from_two_types(objA, objB){
     return arr
 }
 
+function are_the_same(a, b){
+	return a.hotel_wall_item_index == b.hotel_wall_item_index && a.image_blend == b.image_blend
+}
+
 if !generated{
 	
 	array_of_items = array_from_two_types(hotel_floor_item, hotel_wall_item)
@@ -94,7 +98,7 @@ if !generated{
 		if maybe_cursed{
 			with hotel_floor_item{
 				if (other!=self){
-					if !maybe_cursed && other.hotel_wall_item_index == hotel_wall_item_index && other.hotel_wall_item_index.image_blend == hotel_wall_item_index.image_blend{
+					if !maybe_cursed && are_the_same(other, self){
 						instance_destroy()
 					}
 				}
@@ -105,7 +109,7 @@ if !generated{
 		if maybe_cursed{
 			with hotel_wall_item{
 				if (other!=self){
-					if !maybe_cursed && other.hotel_wall_item_index == hotel_wall_item_index && other.hotel_wall_item_index.image_blend == hotel_wall_item_index.image_blend{
+					if !maybe_cursed && are_the_same(other, self){
 						instance_destroy()
 					}
 				}
@@ -115,7 +119,37 @@ if !generated{
 	
 	var typeToCheck = irandom(1) ? hotel_wall_item : hotel_floor_item
 	var numOfType = instance_number(typeToCheck);
-	
+	if (numOfType == 0){
+		end_question = "did you see 1 phone?"
+		end_question_truthy = false
+	}else{
+		array_of_items = array_from_two_types(typeToCheck, typeToCheck)
+		array_shuffle_ext(array_of_items)
+		var targ_item = 0
+		for (var tt = 0; tt<array_length(array_of_items); tt++){
+			targ_item = array_of_items[tt]
+			if (!targ_item.cursed){
+				break;
+			}
+		}
+		
+		var typename = wall_item_names[targ_item.hotel_wall_item_index]
+		var num_found = 0
+		for (var tt = 0; tt<instance_number(typeToCheck); tt++){
+			 var this_one = instance_find(typeToCheck, tt);
+			 if are_the_same(this_one, targ_item){
+				num_found++
+			 }
+		}
+		
+		end_question_truthy = true
+		if irandom(1){
+			num_found++
+			end_question_truthy = false
+		}
+		
+		end_question = "did you see " + string(num_found) + " " + typename + "?"
+	}
 	
 	
 	num_requirements = num_generated_required
